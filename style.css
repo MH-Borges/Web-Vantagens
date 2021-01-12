@@ -131,6 +131,7 @@ body{
     position: relative;
     height: 100vh;
     width: 100%;
+    max-height: 800px;
     align-items: center;
 }
 #TitleP{
@@ -168,8 +169,8 @@ body{
 }
 .logos{
     position: relative;
-    width: 15vw;
-    height: 8vw;
+    width: 14vw;
+    height: 6vw;
 }
 #BLockBT{
     display: flex;
@@ -188,7 +189,8 @@ body{
     font-family: "LatoBlackIT";
     color: white;
     text-decoration: none;
-    margin-right: -80vw;
+    margin-left: auto;
+    margin-right: 50px;
     transition: 0.4s;
 }
 #BtParc:hover{
@@ -225,70 +227,105 @@ body{
     display: flex;
     flex-direction: row;
     position: relative;
-    width: 100%;
     margin-top: -1vw;
     justify-content: center;
+    align-items: center;
+    height: 110vh;
+    max-height: 750px;
 }
 .BannerBack{
-    width: 98.9vw;
+    width: 100%;
 }
 #BlockPhone{
     display: flex;
     position: relative;
     justify-content: center;
     align-items: center;
-    background: salmon;
     width: 40vw;
+    height: 100vh;
+    max-width: 590px;
+    max-height: 700px;
 }
 #BlockPhone img{
-    width: 34vw;
-    box-shadow: -10px;
+    width: 40vw;
+    max-width: 600px;
 }
 #BlockTxt{
     display: flex;
     position: relative;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    background: chocolate;
     width: 50vw;
-    height: 40vw;
+    height: 100vh;
+    max-width: 650px;
+    max-height: 700px;
 }
 #TitleClube{
-    font-family: "LatoBlackIT";
+    font-family:"LatoBlackIT";
     font-size: 2.2em;
     text-align: center;
     color: white;
-    background: violet;
     width: 50vw;
+    max-width: 620px;
 }
 #BlockInsidetxt{
     display: flex;
     position: relative;
     flex-direction: column;
-    background: turquoise;
     width: 46vw;
-    margin-top: 10px;
+    height: 82vh;
+    max-width: 620px;
+    max-height: 550px;
 }
 .txtClube{
  font-family:"RalewaySemiB";
- font-size: 1.5em;
+ font-size: 1.4em;
  color: white;
- padding: 15px;
+ padding-bottom: 10px;
+ padding-top: 25px;
+ padding-left: 35px;
+ padding-right: 35px;
  text-align: left;
 }
 .bold{
     font-family: "RalewayExtraB";
-    font-size: 1.7em;
-    padding: 15px;
+    font-size: 1.5em;
+    padding: 20px;
+    padding-left: 25px;
     color: white;
 }
 #blockBlue{
     display: flex;
     position: relative;
     background: #0864a1;
-    width: 60vw;
+    width: 53.9vw;
+    max-width: 960px;
     height: 100px;
-    margin-left: -5vw;
+}
+#BtClube{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+}
+#BtClube a{
+    background: #f7b511;
+    padding: 13px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 15px;
+    box-shadow: 6px 6px #0c4f7b;
+    font-size: 1.8em;
+    font-family: "LatoBlackIT";
+    color: white;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: 30px;
+    transition: 0.4s;
+}
+#BtClube a:hover{
+    margin-top: -15px;
+    box-shadow: 10px 10px #0c4f7b;
 }
 /** Clube **/
