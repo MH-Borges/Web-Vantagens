@@ -4,6 +4,7 @@
 }
 @font-face{font-family:"LatoBlack"; src: url(fonts/Lato/Lato-Black.ttf);}
 @font-face{font-family:"LatoBlackIT"; src:url(fonts/Lato/Lato-BlackItalic.ttf);}
+@font-face{font-family:"RalewayMedium"; src:url(fonts/Raleway/Raleway-Medium.ttf);}
 @font-face{font-family:"RalewaySemiB"; src:url(fonts/Raleway/Raleway-SemiBold.ttf);}
 @font-face{font-family:"RalewayExtraB"; src:url(fonts/Raleway/Raleway-ExtraBold.ttf);}
 /****/
@@ -102,7 +103,7 @@ body{
     background:url(imgs/banner.jpg);
     display: flex;
     width: 100%;
-    height: 75vh;
+    height: 80vh;
     padding-top: 100px;
     background-position: center;
     background-repeat: no-repeat;
@@ -169,8 +170,7 @@ body{
 }
 .logos{
     position: relative;
-    width: 14vw;
-    height: 6vw;
+    width: 12vw;
 }
 #BLockBT{
     display: flex;
@@ -349,3 +349,97 @@ body{
     box-shadow: 10px 10px #0c4f7b;
 }
 /** Clube **/
+
+/** Premios **/
+#Premios{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 110vh;
+    max-height: 850px;
+}
+#BlockA{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    width: 95vw;
+    height: 100vh;
+    max-height: 800px;
+}
+#TitlePr{
+    width: 90vw;
+    font-size: 3em;
+    font-family: "LatoBlack";
+    text-align: center;
+    color: #134668;
+    padding: 5px;
+}
+#BlockB{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 95vw;
+    height: 80vh;
+    max-height: 650px;
+}
+.cardsP{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+    height: 75vh;
+    max-width: 400px;
+    max-height: 600px;
+    margin: 1.5vw;
+}
+.cardsP img{
+    margin-top: 30px;
+    width: 20vw;
+}
+.cardsP h2{
+    font-family: "LatoBlack";
+    color: #134668;
+    font-size: 1.9em;
+    margin-top: 15px;
+}
+.cardsP p{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 10px;
+    font-family: "RalewayMedium";
+}
+#BtPremio{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+}
+#BtPremio a{
+    background: #f7b511;
+    padding: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 15px;
+    box-shadow: 6px 6px #0c4f7b;
+    font-size: 1.8em;
+    font-family: "LatoBlackIT";
+    color: white;
+    text-decoration: none;
+    transition: 0.4s;
+}
+#BtPremio a:hover{
+    margin-top: -15px;
+    box-shadow: 12px 12px #0c4f7b;
+}
+/** Premios **/
+
+/** Contato **/
+
+/** Contato **/
