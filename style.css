@@ -9,7 +9,7 @@
 @font-face{font-family:"RalewayExtraB"; src:url(fonts/Raleway/Raleway-ExtraBold.ttf);}
 /****/
 body{
-    height: 300vw;
+    height: 250vw;
 }
 /** Menu **/
 .menu{
@@ -59,7 +59,7 @@ body{
     text-decoration: none;
     font-family:"LatoBlack";
     border-radius: 15px;
-    font-size: 1.2em;
+    font-size: 1.3em;
     transition: .4s;
     padding: 12px;
     padding-left: 8px;
@@ -441,5 +441,75 @@ body{
 /** Premios **/
 
 /** Contato **/
-
+#Contato{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60vh;
+    background:radial-gradient(circle farthest-corner at 50vw 15vw,#3797fa 50%, #1c61d5 100%);
+    box-shadow: 0px 15px #dcdcdc;
+}
+#BlockFon {
+    display: flex;
+    position: relative;
+    width: 15vw;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+}
+#BlockFon img{
+    width: 15vw;
+}
+#TitleCT{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 65vw;
+    height: 60vh;
+    max-width: 850px;
+}
+#TitleCT h2{
+    color: white;
+    font-family: "LatoBlackIT";
+    font-size: 3.6em;
+    margin-left: -50px;
+}
+#TitleCT h3{
+    color: white;
+    font-family: "RalewayMedium";
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+#BtCT{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+    height: 60vh;
+    max-width: 200px;
+}
+#BtCT a{
+    background: #f7b511;
+    padding: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 15px;
+    box-shadow: 6px 6px #0c4f7b;
+    font-size: 1.5em;
+    font-family: "LatoBlackIT";
+    color: white;
+    text-decoration: none;
+    margin-top: auto;
+    margin-bottom: 20px;
+    transition: 0.4s;
+}
+#BtCT a:hover{
+    box-shadow: 13px 13px #0c4f7b;
+}
 /** Contato **/
