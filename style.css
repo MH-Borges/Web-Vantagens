@@ -7,9 +7,9 @@
 @font-face{font-family:"RalewayMedium"; src:url(fonts/Raleway/Raleway-Medium.ttf);}
 @font-face{font-family:"RalewaySemiB"; src:url(fonts/Raleway/Raleway-SemiBold.ttf);}
 @font-face{font-family:"RalewayExtraB"; src:url(fonts/Raleway/Raleway-ExtraBold.ttf);}
+@font-face{font-family:"RalewayBlack"; src:url(fonts/Raleway/Raleway-Black.ttf);}
 /****/
 body{
-    height: 250vw;
 }
 /** Menu **/
 .menu{
@@ -513,3 +513,64 @@ body{
     box-shadow: 13px 13px #0c4f7b;
 }
 /** Contato **/
+/** rodapé **/
+footer{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+}
+footer img{
+    width: 100%;
+    height: 40px;
+}
+#BlockRP{
+    display: flex;
+    position: relative;
+    background: violet;
+    justify-content: center;
+    align-items: center;
+    width: 95vw;
+    height: 50vh;
+}
+#BlockRP h3{
+    font-family: "RalewayBlack";
+    color: #0c4469;
+    font-size: 1.8em;
+    padding: 10px;
+}
+#BlockRP ul{
+    background: crimson;
+    margin-left: 10px;
+}
+#links{
+    background: coral;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 25vw;
+    height: 45vh;
+}
+#links li{
+    font-family:"RalewayMedium";
+    padding: 8px;
+    font-weight: 300;
+    list-style: none;
+    font-size: 1.2em;
+}
+#planos{
+    background: cornflowerblue;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 25vw;
+    height: 45vh;
+}
+#BlockRP img{
+    width: 25vw;
+    height: 40vh;
+}
+/** rodapé **/
