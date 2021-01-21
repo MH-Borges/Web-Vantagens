@@ -160,7 +160,7 @@ body{
     display: flex;
     position: relative;
     width: 18vw;
-    height: 22vw;
+    height: 20vw;
     box-shadow: 8px -5px #0c4f7b;
     margin-left: 15px;
     margin-right: 15px;
@@ -170,7 +170,7 @@ body{
 }
 .logos{
     position: relative;
-    width: 12vw;
+    width: 14vw;
 }
 #BLockBT{
     display: flex;
@@ -519,22 +519,27 @@ footer{
     position: relative;
     flex-direction: column;
     width: 100%;
-    height: 60vh;
     justify-content: center;
     align-items: center;
 }
+#line{
+    width: 100%;
+    height: 15px;
+    background: #dcdcdc;
+    margin-top: 80px;
+}
 footer img{
+    margin-top: 10px;
     width: 100%;
     height: 40px;
 }
 #BlockRP{
     display: flex;
     position: relative;
-    background: violet;
     justify-content: center;
-    align-items: center;
     width: 95vw;
-    height: 50vh;
+    height: 45vh;
+    max-height: 300px;
 }
 #BlockRP h3{
     font-family: "RalewayBlack";
@@ -543,34 +548,170 @@ footer img{
     padding: 10px;
 }
 #BlockRP ul{
-    background: crimson;
     margin-left: 10px;
 }
 #links{
-    background: coral;
     display: flex;
     position: relative;
     flex-direction: column;
     width: 25vw;
-    height: 45vh;
+    margin: 10px;
+    max-width: 350px;
 }
-#links li{
+#planos{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 25vw;
+    margin: 10px;
+    max-width: 350px;
+}
+#links li, #planos li{
     font-family:"RalewayMedium";
     padding: 8px;
     font-weight: 300;
     list-style: none;
-    font-size: 1.2em;
+    font-size: 1.1em;
+    
 }
-#planos{
-    background: cornflowerblue;
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    width: 25vw;
-    height: 45vh;
+#links a, #planos a{
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+}
+#links a:hover, #planos a:hover{
+    text-decoration: none;
+    color:  #f7b511;
+    font-style: italic;
+    font-size: 1.2em;
 }
 #BlockRP img{
     width: 25vw;
     height: 40vh;
+    max-width: 360px;
+    max-height: 280px;
+}
+#marcas{
+    display: flex;
+    position: relative;
+    background: #0099d5;
+    width: 100%;
+    height: 10vh;
+    align-items: center;
+}
+#marcas h5, #marcas h3{
+    font-family: "RalewayMedium";
+    font-size: 0.8em;
+    color: white;
+    margin-left: 30px;
+}
+#mhborges{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: 30px;
+}
+#mhborges img{
+    width: 150px;
+    margin-top: -2px;
 }
 /** rodapé **/
+
+/** SOBRE **/
+#Nos{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+#logoSN{
+    margin-top: 50px;
+}
+#logoSN img{
+    width: 40vw;
+    height: 30vh; 
+}
+.BlockSN{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 90vw;
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.BlockSN h2{
+    font-family: "RalewayBlack";
+    font-size: 3.5em;
+    text-transform: uppercase;
+    color: #2f69c0;
+    text-shadow: 2px 2px 4px #05324f;
+}
+.InsideBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 10px solid #f7b511;
+    border-radius: 35px;
+    width: 85vw;
+    max-width: 1100px;
+}
+#imgSNq{
+    position: absolute;
+    top: 80px;
+    width:65vw;
+    height: 110vh;
+    max-width: 800px;
+    max-height: 700px;
+}
+.InsideBlock p{
+    font-family: "RalewaySemiB";
+    padding: 25px 50px 25px;
+    font-size: 1.7em;
+    text-align: left;
+    line-height: 1.5em;
+}
+#missao{
+    margin-top: 80px;
+}
+.imgSNm{
+    position: absolute;
+    top: 80px;
+    width:25vw;
+    height: 32vh;
+    max-width: 250px;
+    max-height: 210px;
+    margin-left: -40vw;
+}
+#img2{
+    margin-left: 35vw;
+}
+.imgSNv{
+    position: absolute;
+    top: 80px;
+    width:25vw;
+    height: 40vh;
+    max-width: 280px;
+    max-height: 250px;
+    margin-left: -40vw;
+}
+#img3{
+    margin-left: 40vw;
+}
+#imgSNvl{
+    position: absolute;
+    top: 85px;
+    width:50vw;
+    height: 90vh;
+    max-width: 650px;
+    max-height: 600px;
+}
+#listVL{
+    margin-right: auto;
+    margin-top: -10px;
+}
+/** SOBRE **/
