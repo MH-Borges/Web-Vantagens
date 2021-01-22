@@ -96,7 +96,7 @@ body{
 }
 /** Menu **/
 #fix{
-    padding-top: 100px;
+    padding-top: 130px;
 }
 /** Banner **/
 #banner{
@@ -715,3 +715,95 @@ footer img{
     margin-top: -10px;
 }
 /** SOBRE **/
+/** PARCEIROS PG **/
+#parceirosPG{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+}
+#parceirosPG h2{
+    font-family: "RalewayBlack";
+    font-size: 3.2em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #2f69c0;
+    margin-top: 70px;
+    text-shadow: 2px 2px 4px #05324f;
+}
+#subTitle{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #f0f0f0;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#subTitle p{
+    font-family: "RalewayMedium";
+    padding: 25px;
+    text-align: center;
+    font-size: 1.3em;
+}
+#BlockPc{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    height: 65vh;
+    max-height: 550px;
+    margin: 2vw;
+    border-radius: 35px;
+    background: #ebebeb;
+    box-shadow: 10px 10px 30px -30px #14557f ;
+    transition: 0.5s;
+}
+.card:hover{
+    margin-top: -3px;    
+    box-shadow: 15px 15px 30px -20px #14557f;
+}
+#desconto{
+    position: absolute;
+    background: #dcdcdc;
+    top: 0;
+    width: 100%;
+    border-top-left-radius:35px;
+    border-top-right-radius:35px ;
+}
+#desconto p {
+    font-family: "LatoBlackIT";
+    text-align: center;
+    color: #104eac;
+    font-size: 1.6em;
+    padding: 5px;
+}
+.card img{
+    width: 20vw;
+}
+#Btparc{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+    background: linear-gradient(90deg,#1b63d5 0%,#3798fa 100%);
+    border-bottom-left-radius:35px;
+    border-bottom-right-radius:35px;
+}
+#Btparc a{
+    font-family: "LatoBlack";
+    font-size: 1.8em;
+    color: white;
+    padding: 50px;
+    text-decoration: none;
+}
+/** PARCEIROS PG **/

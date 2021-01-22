@@ -8,10 +8,15 @@ $('.cont').flickity({
 
   /*rolamento menu*/ 
 const menuItems = document.querySelectorAll('.menu a[href^="#"]');
+const rodape = document.querySelectorAll('#links a[href^="#"]');
 
 menuItems.forEach(item => {
     item.addEventListener('click', scrollToIdOnClick);
 });
+rodape.forEach(item => {
+    item.addEventListener('click', scrollToIdOnClick);
+});
+
 
 function scrollToIdOnClick(event){
     event.preventDefault();
