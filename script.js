@@ -58,3 +58,4 @@ const timer = setInterval(() => {
   }, 1000 / 60); // 60 fps
 };
 /*rolamento menu*/
+
