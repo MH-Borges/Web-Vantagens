@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+@font-face{font-family:"LatoBold"; src: url(fonts/Lato/Lato-Bold.ttf);}
 @font-face{font-family:"LatoBlack"; src: url(fonts/Lato/Lato-Black.ttf);}
 @font-face{font-family:"LatoBlackIT"; src:url(fonts/Lato/Lato-BlackItalic.ttf);}
 @font-face{font-family:"RalewayMedium"; src:url(fonts/Raleway/Raleway-Medium.ttf);}
@@ -46,10 +47,11 @@ body{
     display: flex;
     margin-top: 55px;
     transition: .5s;
+    margin-right: 280px;
 }
 .menu ul.active{
     margin-top: 45px;
-    margin-right: -15px;
+    margin-right: 260px;
 }
 .menu li{
     display: inline;
@@ -70,30 +72,31 @@ body{
     color: white;
 }
 #login{
+    display: flex;
+    position: absolute;
+    align-items: center;
     float: right;
     background: #f7b511;
     color: white;
     text-decoration: none;
     font-size: 0.7em;
     font-family:"LatoBlackIT";
-    width: 125px;
-    height: 12px;
-    padding:8px 4px 8px 4px;
+    padding:10px 6px 10px 6px;
     border-radius: 20px;
-    margin-top: 25px;
-    margin-right: 250px;
     transition: .4s;
+    right: 200px;
+    top: 15px;
 }
 #cliente{
     width: 12px;
     height: 12px;
 }
 #login.active{
-    margin-top: 15px;
-    margin-right: 240px;
+    right: 180px;
+    top: 10px;
 }
 #login:hover{
-    margin-top: 15px;
+    top: 15px;
     box-shadow: 4px 4px 5px #0c4f7b;
 }
 /** Menu **/
@@ -162,9 +165,8 @@ body{
     width: 18vw;
     height: 20vw;
     box-shadow: 8px -5px #0c4f7b;
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-top: 30px;
+    margin: 30px;
+    margin-bottom: 10px;
     justify-content: center;
     align-items: center;
 }
@@ -190,7 +192,7 @@ body{
     color: white;
     text-decoration: none;
     margin-left: auto;
-    margin-right: 200px;
+    margin-right: 230px;
     transition: 0.4s;
 }
 #BtParc:hover{
@@ -299,7 +301,7 @@ body{
     font-size: 2em;
     font-family: "LatoBlackIT";
     text-shadow: -5px 5px 3px #084477;
-    margin-left: 10vw;
+    margin-left: 5vw;
 }
 #valor em{
     font-size: 2.7em;
@@ -309,7 +311,7 @@ body{
     color:white;
     font-size: 1.5em;
     font-family: "LatoBlackIT";
-    margin-left: 23vw;
+    margin-left: 18vw;
     margin-top: -15px;
 }
 #BtClube{
@@ -791,3 +793,142 @@ footer img{
     text-decoration: none;
 }
 /** PARCEIROS PG **/
+
+/** Contato PG **/
+#contatoPG{
+    display: flex;
+    position: relative;
+    height: 80vh;
+}
+#BlockCT{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 60vh;
+    background:radial-gradient(circle farthest-corner at 50vw 15vw,#3797fa 50%, #1c61d5 100%);
+    box-shadow:0px 15px 0px #c7c7c7;
+}
+#BlockCT h2{ font-family: "LatoBlack";
+    font-size: 3.8em;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+    text-shadow: 2px 2px 4px #05324f;
+}
+#contatosInfo{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 75vw;
+    height: 80vh;
+}
+#infoNm{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    padding: 30px 45px 30px 45px;
+    background: rgb(255, 255, 255, 0.25);
+    left: 100px;
+    top:120px
+}
+#blockWT{
+    display: flex;
+    align-items: center;
+}
+#blockWT img{
+    width: 3vw;
+}
+#infoNm p{
+    font-family: "LatoBold";
+    color: white;
+    font-size: 2em;
+    padding: 15px;
+    text-align: center;
+}
+#infoNm em{
+    font-size: 0.8em;
+}
+.modal{
+display: flex;
+flex-direction: column;
+position: absolute;
+background-color:#ebebeb;
+width:30vw;
+height: 60vh;
+right: 100px;
+top: 60px;
+justify-content: center;
+align-items: center;
+border-radius: 15px;
+box-shadow: 10px 10px 0px #0c4f7b;
+}
+.formBox{
+position: relative;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+.BlockBox{
+position: relative;
+margin: 0 0 45px 0;
+}
+.BlockBox.w50{
+width: 80%;
+}
+.BlockBox input, textarea{
+width: 100% !important; 
+resize: none;
+padding: 10px 0;
+font-size: 1.8em;
+color: #04558a;
+border: none;
+background: none;
+outline: none;
+border-bottom: 3px solid;
+}
+.BlockBox textarea{
+min-height: 90px;
+}
+.BlockBox span{
+font-family: "LatoBlack";
+position: absolute;
+left: 0;
+padding: 5px 0;
+font-size: 1.5em;
+color: #1a5d8a;
+transition: 0.5s;
+pointer-events: none;
+}
+.BlockBox input:focus ~ span, textarea:focus ~ span, input:valid ~ span, textarea:valid ~ span{
+transform:translateY(-35px);
+font-size: 1.3em;
+color:#0d3047;
+}
+#enviar {
+position: absolute;
+bottom: -120px;
+width: 150px;
+border-radius: 10px;
+background: #f7b511;    
+box-shadow: 5px 10px 0px #0c4f7b;
+transition: 0.4s;
+}
+#enviar input{
+cursor: pointer;
+border-bottom: none;
+font-size: 2.2em;
+font-family:"LatoBlack";
+padding:10px 20px 10px 20px;
+font-family: "LatoBlackIT";
+text-decoration: none;
+color: white;
+}
+#enviar:hover{
+box-shadow: 7px 12px 5px #0c4f7b;
+}
+/** Contato PG **/

@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+@font-face{font-family:"LatoBold"; src: url(fonts/Lato/Lato-Bold.ttf);}
 @font-face{font-family:"LatoBlack"; src: url(fonts/Lato/Lato-Black.ttf);}
 @font-face{font-family:"LatoBlackIT"; src:url(fonts/Lato/Lato-BlackItalic.ttf);}
 @font-face{font-family:"RalewayMedium"; src:url(fonts/Raleway/Raleway-Medium.ttf);}
@@ -162,10 +163,9 @@ body{
     position: relative;
     width: 18vw;
     height: 20vw;
+    margin: 30px;
+    margin-bottom: 10px;
     box-shadow: 8px -5px #0c4f7b;
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-top: 30px;
     justify-content: center;
     align-items: center;
 }
@@ -815,3 +815,142 @@ footer img{
     text-decoration: none;
 }
 /** PARCEIROS PG **/
+
+/** Contato PG **/
+#contatoPG{
+    display: flex;
+    position: relative;
+    height: 115vh;
+}
+#BlockCT{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    background:radial-gradient(circle farthest-corner at 50vw 15vw,#3797fa 50%, #1c61d5 100%);
+    box-shadow:0px 15px 0px #c7c7c7;
+}
+#BlockCT h2{ font-family: "LatoBlack";
+    font-size: 3.8em;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    text-shadow: 2px 2px 4px #05324f;
+}
+#contatosInfo{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 85vw;
+    height: 100vh;
+}
+#infoNm{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    padding: 20px 35px 20px 35px;
+    background: rgb(255, 255, 255, 0.25);
+    left: 50px;
+    top:100px
+}
+#blockWT{
+    display: flex;
+    align-items: center;
+}
+#blockWT img{
+    width: 3vw;
+}
+#infoNm p{
+    font-family: "LatoBold";
+    color: white;
+    font-size: 1.8em;
+    padding: 15px;
+    text-align: center;
+}
+#infoNm em{
+    font-size: 0.8em;
+}
+.modal{
+display: flex;
+flex-direction: column;
+position: absolute;
+background-color:#ebebeb;
+width:40vw;
+height: 85vh;
+right: 60px;
+top: 40px;
+justify-content: center;
+align-items: center;
+border-radius: 15px;
+box-shadow: 10px 10px 0px #0c4f7b;
+}
+.formBox{
+position: relative;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+.BlockBox{
+position: relative;
+margin: 0 0 45px 0;
+}
+.BlockBox.w50{
+width: 80%;
+}
+.BlockBox input, textarea{
+width: 100% !important; 
+resize: none;
+padding: 10px 0;
+font-size: 1.5em;
+color: #04558a;
+border: none;
+background: none;
+outline: none;
+border-bottom: 3px solid;
+}
+.BlockBox textarea{
+min-height: 90px;
+}
+.BlockBox span{
+font-family: "LatoBlack";
+position: absolute;
+left: 0;
+padding: 5px 0;
+font-size: 1.5em;
+color: #1a5d8a;
+transition: 0.5s;
+pointer-events: none;
+}
+.BlockBox input:focus ~ span, textarea:focus ~ span, input:valid ~ span, textarea:valid ~ span{
+transform:translateY(-35px);
+font-size: 1.3em;
+color:#0d3047;
+}
+#enviar {
+position: absolute;
+bottom: -120px;
+width: 150px;
+border-radius: 10px;
+background: #f7b511;    
+box-shadow: 5px 10px 0px #0c4f7b;
+transition: 0.4s;
+}
+#enviar input{
+cursor: pointer;
+border-bottom: none;
+font-size: 2.2em;
+font-family:"LatoBlack";
+padding:10px 20px 10px 20px;
+font-family: "LatoBlackIT";
+text-decoration: none;
+color: white;
+}
+#enviar:hover{
+box-shadow: 7px 12px 5px #0c4f7b;
+}
+/** Contato PG **/
